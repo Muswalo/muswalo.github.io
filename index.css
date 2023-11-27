@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(0, 0, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-qr-code-cont {
+  width: 100%;
+}
+
+#image-qr-code {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.text {
+  text-align: center;
+  font-family: helvetica;
+  color: darkslategrey;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
