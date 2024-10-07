@@ -1,0 +1,59 @@
+
+.portfolioCardsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+  transition: box-shadow 0.35s ease-in-out;
+  border-radius: 10px;
+}
+
+.card.portOpen {
+  border: 1px solid rgba(47, 79, 79, 0.781);
+  box-shadow: 2px 8px 10px rgba(20, 33, 33, 0.2);
+}
+
+.cardImgCont img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(47, 79, 79, 0.781);
+  z-index: 1;
+}
+
+.cardImgCont img.imgOpen {
+  border: none;
+}
+
+.cardDesc {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 30px 20px 15px 20px;
+  border-radius: 10px;
+  margin-top: -100px; /* Move the card description off the view at the initial state */
+  transition: margin-top 0.5s ease-in-out; /* Adjust the transition property */
+  z-index: 0;
+  background-color: white;
+  overflow: hidden; /* Hide any content that overflows the card description */
+}
+
+.cardDesc.cardDescOpen {
+  margin-top: 0; /* Show the card description by moving it into view */
+}
+
+.cardDesc p a {
+  color: blue;
+  text-decoration: none;
+}
+
+.cardDesc p {
+  line-height: 30px;
+  color: rgba(47, 79, 79, 0.9);
+}

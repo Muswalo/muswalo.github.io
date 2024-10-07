@@ -1,11 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muswalo Testing</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Muswalo</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="assets/all.min.js"></script>
+    <script src="js/index.js" defer></script>
 </head>
+
 <body>
-  <h1>Hello world</h1>
+    <nav>
+        <div class="topNav">
+            <span class="logoCont">
+                <img src="img/logo.svg" alt="logo" id="logo">
+            </span>
+            <span>
+                <span class="menuIcon" role="button">
+                    <i class="fas fa-bars-staggered fa-1x"></i>
+                </span>
+            </span>
+        </div>
+
+        <div class="navListCont">
+            <ul class="navList">
+                <li> <span class="navListIcon"><i class="fas fa-book"></i></span> About Me</li>
+                <li> <span class="navListIcon"><i class="fas fa-lightbulb"></i></span> Skills</li>
+                <li> <span class="navListIcon"><i class="fas fa-user-tie"></i></span> Portfolio</li>
+                <li> <span class="navListIcon"><i class="fas fa-briefcase"></i></span> Experience</li>
+                <li> <span class="navListIcon"><i class="fas fa-file"></i></span> My CV</li>
+                <li> <span class="navListIcon"><i class="fas fa-phone"></i></span> Contacts</li>
+            </ul>
+
+            <ul class="navSocialIcons">
+                <li> <span role="button"><i class="fab fa-github"></i></span></li>
+                <li> <span role="button"><i class="fab fa-facebook"></i></span></li>
+                <li> <span role="button"><i class="fab fa-linkedin"></i></span></li>
+                <li> <span role="button"><i class="fab fa-stack-overflow"></i></span></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="headSection">
+            <div class="headSectionImageCont">
+                <img src="img/emmanuel.png" alt="Emmanuel Muswalo" id="headSectionImage">
+            </div>
+            <div class="whatIDo">
+                <div class="s-cont">
+                    <p class="i-cont">🙂 Hello, nice to meet you, my name is <strong>Muswalo</strong>.</p>
+                </div>
+                <div class="s-cont">
+                    <p class="i-cont">Am a <strong>Software Developer.</strong> 👩‍💻</p>
+                </div>
+                <div class="s-cont">
+                    <p class="i-cont">I build <strong>websites, web apps, apps</strong> etc.</p>
+                </div>
+                <div class="s-cont">
+                    <p class="i-cont">I`d be happy to help you build your dream project.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skillsSection">
+            <h3 id="skillsHeader">My Skills</h3>
+            <div class="line"></div>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <i class="fab fa-html5 i-size" style="color: #E34F26;"></i>
+                    <p class="i-text">HTML</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fab fa-css3-alt i-size" style="color: #2965f1;"></i>
+                    <p class="i-text">CSS</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fab fa-js-square i-size" style="color: #F7DF1E;"></i>
+                    <p class="i-text">JavaScript</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fab fa-php i-size" style="color: #777BB4;"></i>
+                    <p class="i-text">PHP</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fab fa-python i-size" style="color: #3776AB;"></i>
+                    <p class="i-text">Python</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-database i-size" style="color: #336791;"></i>
+                    <p class="i-text">SQL</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fab fa-react i-size" style="color: #61DAFB;"></i>
+                    <p class="i-text">React</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fab fa-react i-size" style="color: #61DAFB;"></i>
+                    <p class="i-text">React Native</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-globe i-size" style="color:#1e90ff;"></i>
+                    <p class="i-text">Django</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-database i-size" style="color: #336791;"></i>
+                    <p class="i-text">RDBMS</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-code i-size" style="color: #4B8BBE;"></i>
+                    <p class="i-text">APIs</p>
+                </div>
+                <div class="grid-item i-size">
+                    <i class="fas fa-shield-alt i-size" style="color:#00ff7f; opacity: 0.6;"></i>
+                    <p class="i-text">Security</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experienceSection">
+            <h3 id="experienceHeader">
+                My Experiences
+            </h3>
+            <div class="line"></div>
+            <div style="margin-top: 30px;">
+                <div class="experienceCont">
+                    <!-- Experience block for Web Development -->
+                    <div class="exp">
+                        <div class="exp-header">
+                            <i class="fas fa-globe" style="color:#1e90ff; font-size:30px;"></i>
+                            <span class="exp-title"><strong>Web Development</strong></span>
+                        </div>
+                        <div class="exp-description">
+                            <p>As a web developer, I have experience in building and maintaining websites using HTML, CSS, and JavaScript. I am also familiar with various web frameworks and libraries.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience block for App Development -->
+                    <div class="exp">
+                        <div class="exp-header">
+                            <i class="fas fa-mobile-alt" style="color:#ff6347; font-size:30px; opacity: 0.6;"></i>
+                            <span class="exp-title"><strong>App Development</strong></span>
+                        </div>
+                        <div class="exp-description">
+                            <p>In app development, I have worked on creating mobile applications for both Android and iOS platforms. I am most proficient in React Native.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience block for Dev Ops -->
+                    <div class="exp">
+                        <div class="exp-header">
+                            <i class="fas fa-server" style="color:#008080; font-size:30px; opacity: 0.6;"></i>
+                            <span class="exp-title"><strong> Dev Ops</strong></span>
+                        </div>
+                        <div class="exp-description">
+                            <p>I have experience in DevOps practices, including setting up and managing servers, deploying applications, and implementing continuous integration and deployment pipelines.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience block for APIs -->
+                    <div class="exp">
+                        <div class="exp-header">
+                            <i class="fas fa-plug" style="color:#ffd700; font-size:30px; opacity: 0.6;"></i>
+                            <span><strong class="exp-title">APIs</strong></span>
+                        </div>
+                        <div class="exp-description">
+                            <p>My experience includes working with APIs to integrate different systems and services, allowing seamless data exchange and functionality between applications.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience block for Information Security -->
+                    <div class="exp">
+                        <div class="exp-header">
+                            <i class="fas fa-shield-alt" style="color:#00ff7f; font-size:30px; opacity: 0.6;"></i>
+                            <span class="exp-title"><strong>Information Security</strong></span>
+                        </div>
+                        <div class="exp-description">
+                            <p>With expertise in information security, I focus on protecting data and systems from unauthorized access, ensuring a secure environment for businesses and users.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <h3 id="portfolioHeader">
+                My Portfolio
+            </h3>
+            <div class="line"></div>
+
+            <div style="margin-top: 30px;">
+
+                <div class="portfolioBtns">
+                    <button class="portfolioBtn active" data-category="all">All</button>
+                    <button class="portfolioBtn" data-category="websites">Websites</button>
+                    <button class="portfolioBtn" data-category="apps">Apps</button>
+                </div>
+
+                <div class="portfolioCardsContainer">
+                    <div class="card" data-category="websites">
+                        <div class="cardImgCont">
+                            <img src="img/projecct.PNG" alt="" srcset="">
+                        </div>
+                        <div class="cardDesc">
+                            <p><a href="#">African Music promoters <i class="fas fa-arrow-up-right-from-square"></i></a> - a music streaming website i built for a client.</p>
+                        </div>
+                    </div>
+                    <div class="card" data-category="websites">
+                        <div class="cardImgCont">
+                            <img src="img/projecct.PNG" alt="" srcset="">
+                        </div>
+                        <div class="cardDesc">
+                            <p><a href="#">African Music promoters <i class="fas fa-arrow-up-right-from-square"></i></a> one of the website i built for a client.</p>
+                        </div>
+                    </div>
+                    <div class="card" data-category="apps">
+                        <div class="cardImgCont">
+                            <img src="img/projecct.PNG" alt="" srcset="">
+                        </div>
+                        <div class="cardDesc">
+                            <p><a href="#">App Name <i class="fas fa-arrow-up-right-from-square"></i></a> - an exciting mobile app that revolutionizes the way we communicate.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="CV">
+            <h3 id="portfolioHeader">
+                My Curriculum Vitea
+            </h3>
+            <div class="line"></div>
+            <div style="margin-top: 30px;" class="cvItemsCont">
+                <div class="cvImgCont">
+                    <img src="img/emmanuel.png" alt="Emmanuel Muswalo" id="cvImg">
+                </div>
+                <div class="cvBubbleCont">
+                    <span class="cvBubble">
+                        Download <i class="fas fa-arrow-down" style="color:#E34F26;"></i> my <strong>CV</strong> to have a more detailed overview about me.
+                    </span>
+                </div>
+            </div>
+            <div class="downLoadCvBtn">
+                <a href="index.php" download style="display: none;" id="document"></a>
+                <span class="cvbutton" onclick="showThankYouBubble()">
+                    Download CV <i class="fas fa-file-alt" style="margin-left: 5px;"></i>
+                </span>
+            </div>
+        </section>
+        <section class="breaker">
+            <br><br><br><br><br>
+            <div style="margin: 25px;">
+                <div class="line"></div>
+                <div class="breakerItemCont">
+                    <span>Emmanuel Muswalo</span>
+                    <span>&copy; 2023</span>
+                </div>
+                <br><br><br>
+            </div>
+        </section>
+
+
+        <section class="clientsSay">
+            <div style="margin: 30px;">
+                <h2 id="clientsSayheading">Here is what my clients say about me</h2>
+            </div>
+            <div class="clientViews" id="clientSlideshow">
+                <div class="clientViewsCont">
+                    <div class="clientViewsContImgCont">
+                        <img src="img/emmanuel.png" alt="client image" class="clientViewsContImg">
+                    </div>
+                    <div class="clientViewsContDesc">
+                        <p class="clientViewsContDescText">
+                            <strong>John Doe CEO Overt Technology</strong><br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur quas perspiciatis labore expedita aliquam laborum? Sapiente ut omnis facilis explicabo fugiat, quam at vero tempora autem animi nesciunt perferendis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="clientViewsCont">
+                    <div class="clientViewsContImgCont">
+                        <img src="img/emmanuel.png" alt="client image" class="clientViewsContImg">
+                    </div>
+                    <div class="clientViewsContDesc">
+                        <p class="clientViewsContDescText">
+                            <strong>Emmanuel Muswalo CEO Overt Technology</strong><br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui doloribus neque assumenda cupiditate nisi laboriosam. Esse cum provident sequi. Totam quam architecto modi deleniti at odio beatae corrupti nobis repellat.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="clientViewsCont">
+                    <div class="clientViewsContImgCont">
+                        <img src="img/emmanuel.png" alt="client image" class="clientViewsContImg">
+                    </div>
+                    <div class="clientViewsContDesc">
+                        <p class="clientViewsContDescText">
+                            <strong>Jane DoeCEO Overt Technology</strong><br><br> ipsum dolor sit amet consectetur adipisicing elit. Minima officia consectetur laboriosam vero id corporis placeat, architecto modi reiciendis totam error nesciunt ut accusamus laborum ab ad esse officiis aliquam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
